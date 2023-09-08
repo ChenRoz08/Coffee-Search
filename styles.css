@@ -10,7 +10,7 @@ body {
   font-size: 1rem;
   font-weight: 300;
   font-family: "Work Sans", sans-serif;
-  background-color: rgb(35, 0, 35);
+  background-color: #230023;
   color: #f1f1f1;
 }
 
@@ -51,8 +51,8 @@ h4 {
   margin-bottom: 1rem;
   padding: 0.5rem 1rem;
   font-size: 1rem;
-  color: rgb(35, 0, 35);
-  background-color: rgb(250, 193, 203);
+  color: #230023;
+  background-color: #fac1cb;
   border: 1px solid #555;
 }
 
