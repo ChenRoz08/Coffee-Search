@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="app.js" async defer></script>
+</head>
+
+<body>
+    <section class="recipes-section" id="recipes" aria-labelledby="recipes">
+        <div class="container">
+
+            <h1>I Love Coffee</h1>
+            <h2>Search Your Coffee</h2>
+
+            <input type="search" id="search" onkeyup="mySearch()" placeholder="Search for coffee..."
+                title="I Love Coffee" aria-label="search" />
+
+
+            <div class="recipe-container">
+
+                <div class="recipe">
+                    <h3>Hot Coffee</h3>
+                    <h4>Peanut Butter Latte</h4>
+                </div>
+
+                <div class="recipe">
+                    <h3>Cold Coffee</h3>
+                    <h4>Iced Coffee</h4>
+                </div>
+
+                <div class="recipe">
+                    <h3>Dessert</h3>
+                    <h4>Milkshake Coffee</h4>
+                </div>
+
+                <div class="recipe">
+                    <h3>Cold Coffee</h3>
+                    <h4>Caramel Frappuccino</h4>
+                </div>
+
+                <div class="recipe">
+                    <h3>Hot Coffee</h3>
+                    <h4>Cafe Latte</h4>
+                </div>
+
+                <div class="recipe">
+                    <h3>Cold Coffee</h3>
+                    <h4>Cream Coffee</h4>
+                </div>
+
+                <div id="no-result" class="hide-search">Sorry, Drink Tea!</div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>

@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 1rem;
+  font-weight: 300;
+  font-family: "Work Sans", sans-serif;
+  background-color: rgb(35, 0, 35);
+  color: #f1f1f1;
+}
+
+section {
+  min-height: 100vh;
+  max-width: 64rem;
+  padding: 1rem 0.5rem;
+  margin-inline: auto;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: 1.5rem;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: 400;
+  margin-bottom: 1rem;
+  opacity: 0.6;
+}
+
+h3 {
+  font-size: 0.6rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  opacity: 0.8;
+  letter-spacing: 5px;
+  margin-bottom: 0.5rem;
+}
+
+h4 {
+  font-size: 1.25rem;
+  font-weight: 400;
+}
+
+#search {
+  margin-bottom: 1rem;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  color: rgb(35, 0, 35);
+  background-color: rgb(250, 193, 203);
+  border: 1px solid #555;
+}
+
+.recipe-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.recipe {
+  border: 1px solid #555;
+  width: 30%;
+  padding: 1rem;
+}
+
+.hide-search {
+  display: none;
+}
